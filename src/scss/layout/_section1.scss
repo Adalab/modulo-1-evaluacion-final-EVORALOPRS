@@ -1,5 +1,56 @@
-.section{
+.section1{
     display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 12px;
+    font-family: $font-small;
+
+    &__p{
+        color: $bright-orange;
+        padding-top: 34px;
+        padding-left: 18px;
+        font-size: 14px;
+    }
+    &__h2{
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        padding-left: 18px;
+        padding-right: 12px;
+        
+    }
+    &__p2{
+        font-size: 18px regular;
+        padding-left: 21px;
+        padding-right: 12px;
+
+
+    }
+    &__buttom{
+        border: 2px solid;
+        border-color: $bright-orange;
+        background-color: white;
+        border-radius: 500px;
+        width: 16%;
+        margin-top: 25.5px;
+        
+
+        &--p{
+            color: $bright-orange;
+            font-weight: medium;
+            font-size: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px; 
+            
+        }
+    
+}
+
+
+    
+    
+    
     
 
+   
 }
