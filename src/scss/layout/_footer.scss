@@ -1,0 +1,42 @@
+.footer{
+    background-color: $greyish-brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    color: $white;
+      
+}
+
+
+.links{
+    list-style-type: none;
+
+
+    &__adalab{
+        color: $white;
+    text-decoration: none;
+    font-family: $font-small;
+    font-size: 16px
+
+    }
+    
+}
+
+
+.copyright{
+    font-family: $font-small;
+    font-size: 14px;
+
+    &__hearts{
+        color: red;
+    }
+}
