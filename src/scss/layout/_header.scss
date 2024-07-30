@@ -1,4 +1,57 @@
-.hb{
-    background-color: $bright-orange
+.header {   
+     text-align: center;
+     background-image: url(../images/cover.jpeg);
+     height: 100vh;
+     
+
+
+     &__icon{
+        border: 1px solid $bright-orange;
+        background-color: $bright-orange;
+        position:fixed;
+        padding: 10px;
+        top: 0;
+        left: 0; 
+      
     
+    }
+     
 }
+.container{
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 10px;   
+   
+   
+  &__title{
+    font-family: $font-tall ;
+    color: $white;
+    font-size: 30px;
+    
+    
+ 
+    
+    
+  }
+  &__paragraph {
+    font-family: $font-small;
+    color: $white;
+    font-size: 16px;
+    
+
+  }
+}
+
+.scrolldown{
+    border: 2px solid $white;
+    border-radius: 50px;
+   
+ 
+}
+
+
+
+
+   
