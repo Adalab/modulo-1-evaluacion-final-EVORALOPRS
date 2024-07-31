@@ -1,8 +1,10 @@
 .footer{
+    
     background-color: $greyish-brown;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
     
     
 }
@@ -13,6 +15,7 @@
     justify-content: center;
     gap: 50px;
     color: $white;
+   
       
 }
 
@@ -39,4 +42,15 @@
     &__hearts{
         color: red;
     }
+}
+
+.scrollarrow{
+    height: 45px;
+    width: 45px;
+    background-color: $white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+
 }
