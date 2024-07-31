@@ -45,8 +45,19 @@
 }
 
 .scrolldown{
-    border: 2px solid $white;
+    width: 45px;
+    height: 45px;
+    background-color: $white;
     border-radius: 50px;
+    transform: translateY(-85px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    
+
    
  
 }
