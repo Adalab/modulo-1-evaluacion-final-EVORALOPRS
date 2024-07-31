@@ -8,6 +8,7 @@
     gap: 20px;
     
 
+
     &__p{
         color: $bright-orange;
         padding-top: 34px;
@@ -36,7 +37,7 @@
         border-radius: 500px;
         width: 16%;
         margin-left: 20px;
-        
+        @media (min-width: 768px)
         
 
         &--p{
