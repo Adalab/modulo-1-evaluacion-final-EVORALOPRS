@@ -2,7 +2,8 @@
     background-color: $light-grey;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;   
+    grid-template-columns: 1fr 1fr 1fr;  
+    padding-top: 49px;
     
       
 }
@@ -11,12 +12,15 @@
     grid-row: 1;
     grid-column: 2;
     font-family: $font-tall;
+     width:  450px;
+
 }
 
 .item2{
     grid-row:2;
     &__run{
         font-family: $font-tall;
+        font-size: 20px;
     }
 }
 .item3{
@@ -24,6 +28,7 @@
     grid-column: 2;
     &__level{
         font-family: $font-tall;
+        font-size: 20px;
     }
 
 }
@@ -31,11 +36,17 @@
 .item4{
     grid-row: 2;
     grid-column: 3;
+
     &__premiun{
         font-family: $font-tall;
+        font-size: 20px;
     }
 }
+.stylep{
+   font-family: $font-small;
+   font-size: 20px;
 
+}
 .buttom2{
     grid-row: 3;
     grid-column: 2;
@@ -46,6 +57,10 @@
     color: white;
     font-family: $font-small;
     font-size: 20px;
+    height: 45px;
+    width: 184px;
+ 
+
     
     
 }
